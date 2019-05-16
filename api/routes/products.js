@@ -6,7 +6,7 @@ const router = express.Router();
 //Import mongoose
 const mongoose = require('mongoose');
 //import the product model schema here
-const Product = require('../models/product');
+const Product = require('../models/product');   //usage has been transferred to the controllers/products.js
 
 //import orders controller
 const ProductsController = require('../controllers/products');

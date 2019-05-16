@@ -3,10 +3,10 @@ const router = express.Router();
 
 //USING order.js model
 //Import mongoose
-const mongoose = require('mongoose');
+const mongoose = require('mongoose');   //usage has been transferred to the "controllers/products.js" and "controllers/orders.js"
 
 //import the order model schema here
-const Order = require('../models/order');    //This has been copied to the controllers/orders file
+const Order = require('../models/order');    //This has been copied to the controllers/orders file   i.e //usage has been transferred to the controllers/orders.js
 //import orders controller
 const OrdersController = require( '../controllers/orders');
 

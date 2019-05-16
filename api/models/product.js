@@ -10,7 +10,8 @@ const productSchema = mongoose.Schema({
     // price: Number        
     //::::the previous 'name' and 'price' are optional, so we can post a product without price/name or with String/Number which is not what we want.
     name : { type: String, required: true},
-    price : { type: Number, required: true}
+    price : { type: Number, required: true},
+    productImage : { type: String, required: true}
 });
 
 //export the schema
